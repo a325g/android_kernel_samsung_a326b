@@ -2,8 +2,7 @@
 VERSION = 4
 PATCHLEVEL = 14
 SUBLEVEL = 186
-EXTRAVERSION =
-NAME = Petit Gorille
+NAME = A32 5G
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
