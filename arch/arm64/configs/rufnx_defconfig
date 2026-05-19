@@ -3,6 +3,7 @@
 # Linux/arm64 4.14.186 Kernel Configuration
 #
 # CONFIG_KSU is not set
+CONFIG_POSIX_MQUEUE=y
 CONFIG_ARM64=y
 CONFIG_64BIT=y
 CONFIG_ARCH_PHYS_ADDR_T_64BIT=y
