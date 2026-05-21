@@ -25,31 +25,7 @@ jobs:
           unzip zip zlib1g-dev
 
     # --- SSH Debug Step ---
-    - name: Force Start Tmate Manually
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
       env:
         DEBIAN_FRONTEND: noninteractive
-      run: |
-        sudo apt-get update && sudo apt-get install -y tmate
-        
-        echo "Starting tmate daemon..."
-        tmate -F &
-        
-        echo "Waiting for SSH keys to generate..."
-        for i in {1..10}; do
-          sleep 2
-          if sudo tmate display -p '#{tmate_ssh}'; then
-            echo "--------------------------------------------------------"
-            echo "YOUR SSH COMMAND:"
-            sudo tmate display -p '#{tmate_ssh}'
-            echo "YOUR WEB URL:"
-            sudo tmate display -p '#{tmate_web}'
-            echo "--------------------------------------------------------"
-            break
-          fi
-        done
-        
-        # Keep the runner alive so you can use the connection
-        while [ ! -f /tmp/keepalive ]; do
-          sleep 5
-        done
-        
