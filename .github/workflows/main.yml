@@ -23,14 +23,33 @@ jobs:
           bc bison build-essential ccache curl flex git gnupg gperf libncurses5-dev \
           libssl-dev libxml2-utils lzop openjdk-11-jdk python3 python3-pip \
           unzip zip zlib1g-dev
-       
 
     # --- SSH Debug Step ---
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-      with:
-        tmate-server-host: pair.tmate.io
-        tmate-server-port: 22
-        limit-access-to-actor: false # Recommended: only you can access the session
-    # -----------------------
-          
+    - name: Force Start Tmate Manually
+      env:
+        DEBIAN_FRONTEND: noninteractive
+      run: |
+        sudo apt-get update && sudo apt-get install -y tmate
+        
+        echo "Starting tmate daemon..."
+        tmate -F &
+        
+        echo "Waiting for SSH keys to generate..."
+        for i in {1..10}; do
+          sleep 2
+          if sudo tmate display -p '#{tmate_ssh}'; then
+            echo "--------------------------------------------------------"
+            echo "YOUR SSH COMMAND:"
+            sudo tmate display -p '#{tmate_ssh}'
+            echo "YOUR WEB URL:"
+            sudo tmate display -p '#{tmate_web}'
+            echo "--------------------------------------------------------"
+            break
+          fi
+        done
+        
+        # Keep the runner alive so you can use the connection
+        while [ ! -f /tmp/keepalive ]; do
+          sleep 5
+        done
+        
