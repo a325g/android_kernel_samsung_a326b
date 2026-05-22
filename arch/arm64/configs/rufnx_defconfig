@@ -2,7 +2,7 @@
 # Automatically generated file; DO NOT EDIT.
 # Linux/arm64 4.14.186 Kernel Configuration
 #
-CONFIG_ARM64_V8_HE=y
+CONFIG_ARM64_VHE=y
 CONFIG_VIRTIO_PCI=y
 CONFIG_KVM=y
 CONFIG_KVM_ARM_HOST=y
