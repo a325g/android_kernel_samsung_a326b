@@ -1,11 +1,11 @@
-name: Build Android Kernel
+name: Ssh workflow
 
 on:
   push:
     branches: [ "a32x-kernel" ] # Change this to your default branch name if it isn't main
   pull_request:
     branches: [ "a32x-kernel" ]
-  workflow_dispatch: # Allows you to manually trigger the build from the Actions tab
+    # Allows you to manually trigger the build from the Actions tab
 
 jobs:
   build-kernel:
