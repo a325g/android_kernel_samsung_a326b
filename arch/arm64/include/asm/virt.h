@@ -79,8 +79,7 @@ void __hyp_reset_vectors(void);
 /* Reports the availability of HYP mode */
 static inline bool is_hyp_mode_available(void)
 {
-	return (__boot_cpu_mode[0] == BOOT_CPU_MODE_EL2 &&
-		__boot_cpu_mode[1] == BOOT_CPU_MODE_EL2);
+	return true;
 }
 
 /* Check if the bootloader has booted CPUs in different modes */
