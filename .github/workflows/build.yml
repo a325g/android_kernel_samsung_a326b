@@ -31,7 +31,7 @@ jobs:
         uses: mxschmitt/action-tmate@v3
         with:
          limit-access-to-actor: false
-         detached: true
+      
 
       # Step 4: Upload the compiled kernel artifact
       # This grabs everything from the output/ folder and makes it a downloadable zip.
