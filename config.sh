@@ -5,7 +5,7 @@
 
 # Device Config
 export DEVICE="a32x"
-export DEFCONFIG="a32x_defconfig"
+export DEFCONFIG="rufnx_defconfig"
 export KBUILD_BUILD_USER="A32"
 export KBUILD_BUILD_HOST="A32"
 
