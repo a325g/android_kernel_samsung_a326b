@@ -449,8 +449,7 @@ static int _charger_manager_enable_charging(struct charger_consumer *consumer,
 		else
 			return -ENOTSUPP;
 
-		// This line is now perfectly safe because if it didn't match MAIN or SLAVE, 
-		// the function has already exited via 'return -ENOTSUPP;' above.
+		// Force charger to always remain active
 		_mtk_charger_do_charging(info, true); 
 		pdata->disable_charging_count = 0;
 
