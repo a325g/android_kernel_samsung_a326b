@@ -1,4 +1,4 @@
-name: Build Android Kernel
+name: Build Android Kernel SukiSU
 
 on:
   pull_request:
@@ -29,7 +29,7 @@ jobs:
       # This will run build.sh located in the root of your checked-out repository.
       - name: Execute Kernel Build Script
         run: |
-          curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s susfs-main
+          curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s susfs_new
           chmod +x build.sh
           ./build.sh
 
