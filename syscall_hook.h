@@ -5,8 +5,8 @@
 #if defined(__x86_64__)
 typedef sys_call_ptr_t syscall_fn_t;
 #else
-// Fallback for arm64 on 4.14 legacy kernels using sys_call_ptr_t
-typedef sys_call_ptr_t syscall_fn_t;
+// Universal fallback for older arm64 kernels that lack sys_call_ptr_t
+typedef void* syscall_fn_t;
 #endif
 
 extern syscall_fn_t *ksu_syscall_table;
