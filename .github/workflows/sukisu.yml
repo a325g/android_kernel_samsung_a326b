@@ -30,7 +30,7 @@ jobs:
       - name: Execute Kernel Build Script
         run: |
           curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s susfs_new
-          mv init.c drivers/kernelsu/core/init.h
+          mv init.c drivers/kernelsu/core/init.c
           mv syscall_hook.h drivers/kernelsu/hook/syscall_hook.h
           chmod +x build.sh
           ./build.sh
