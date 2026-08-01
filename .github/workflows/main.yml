@@ -29,9 +29,8 @@ jobs:
       # This will run build.sh located in the root of your checked-out repository.
       - name: Execute Kernel Build Script
         run: |
-          curl -LSs "https://raw.githubusercontent.com/tiann/KernelSU/main/kernel/setup.sh" | bash -s v0.9.5
-          chmod +x build.sh
-          ./build.sh
+           chmod +x build.sh
+           ./build.sh
 
       # Step 4: Upload the compiled kernel artifact
       # This grabs everything from the output/ folder and makes it a downloadable zip.
