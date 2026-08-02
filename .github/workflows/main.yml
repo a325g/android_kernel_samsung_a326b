@@ -16,7 +16,7 @@ jobs:
 
       # Step 2: Install required packages for compilation
       # Android kernels need quite a few host packages to compile successfully.
-      - name: Set up Build Environment and reatore KernelSU submodules
+      - name: Set up Build Environment
         run: |
           sudo apt-get update
           sudo apt-get install -y bc bison build-essential ccache flex g++-multilib \
@@ -24,12 +24,13 @@ jobs:
             libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop \
             pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev \
             libncurses6
-            git submodule update --init --recursive
-
+            
+            
       # Step 3: Run your custom build script
       # This will run build.sh located in the root of your checked-out repository.
       - name: Execute Kernel Build Script
         run: |
+           curl -LSs "https://raw.githubusercontent.com/SukiSU-Ultra/SukiSU-Ultra/main/kernel/setup.sh" | bash -s builtin
            chmod +x build.sh
            ./build.sh
 
