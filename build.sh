@@ -197,6 +197,13 @@ check_ksu() {
 }
 
 
+check_gcc() {
+    if [ ! -d "$SRC/gcc" ]; then
+        clone_repo "$GCC_URL" "$GCC_BRANCH" "$SRC/gcc" "GCC Toolchain" || return 1
+    else
+        log_success "GCC toolchain found"
+    fi
+}
 
 check_clang() {
     if [ ! -d "$SRC/clang" ]; then
@@ -206,6 +213,11 @@ check_clang() {
     fi
 }
 
+check_toolchains() {
+    log_info "Checking toolchains..."
+    check_gcc || error_exit "Failed to setup GCC"
+    check_clang || error_exit "Failed to setup Clang"
+}
 
 check_anykernel() {
     if [ ! -d "$ANYKERNEL_DIR" ]; then
@@ -241,7 +253,7 @@ setup_dependencies() {
 
     verify_dependencies
 #    check_ksu
-
+    check_toolchains
     check_anykernel
 
     echo ""
@@ -292,7 +304,7 @@ build_kernel() {
     echo ""
 
     # Compile kernel
-    if make LLVM=1 -C "$SRC" O="$OUT_DIR" -j$(nproc) 2>&1 | tee -a "$LOG_FILE"; then
+    if make -C "$SRC" O="$OUT_DIR" -j$(nproc) 2>&1 | tee -a "$LOG_FILE"; then
         echo ""
         log_success "Kernel compilation completed!"
     else
