@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lens/main/common/dw9808af/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/dw9808af/built-in.o; ar rcSTPD drivers/misc/mediatek/lens/main/common/dw9808af/built-in.o drivers/misc/mediatek/lens/main/common/dw9808af/DW9808AF.o ; scripts/mod/modpost drivers/misc/mediatek/lens/main/common/dw9808af/built-in.o

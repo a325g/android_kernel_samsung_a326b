@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/mdpm_v2/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/base/power/mdpm_v2/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/base/power/mdpm_v2/mt6853/built-in.o drivers/misc/mediatek/base/power/mdpm_v2/mt6853/mtk_mdpm_platform.o ; scripts/mod/modpost drivers/misc/mediatek/base/power/mdpm_v2/mt6853/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/debug_latch/cache_parity/built-in.o :=   rm -f drivers/misc/mediatek/debug_latch/cache_parity/built-in.o; ar rcSTPD drivers/misc/mediatek/debug_latch/cache_parity/built-in.o drivers/misc/mediatek/debug_latch/cache_parity/cache_parity.o ; scripts/mod/modpost drivers/misc/mediatek/debug_latch/cache_parity/built-in.o

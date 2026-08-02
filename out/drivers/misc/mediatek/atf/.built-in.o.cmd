@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/atf/built-in.o :=   rm -f drivers/misc/mediatek/atf/built-in.o; ar rcSTPD drivers/misc/mediatek/atf/built-in.o drivers/misc/mediatek/atf/atf_logger.o drivers/misc/mediatek/atf/mt_secure_call.o ; scripts/mod/modpost drivers/misc/mediatek/atf/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/hwmon/built-in.o :=   rm -f drivers/hwmon/built-in.o; ar rcSTPD drivers/hwmon/built-in.o drivers/hwmon/hwmon.o ; scripts/mod/modpost drivers/hwmon/built-in.o

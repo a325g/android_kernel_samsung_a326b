@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/lpm/modules/built-in.o :=   rm -f drivers/misc/mediatek/lpm/modules/built-in.o; ar rcSTPD drivers/misc/mediatek/lpm/modules/built-in.o drivers/misc/mediatek/lpm/modules/debug/built-in.o drivers/misc/mediatek/lpm/modules/platform/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/lpm/modules/built-in.o

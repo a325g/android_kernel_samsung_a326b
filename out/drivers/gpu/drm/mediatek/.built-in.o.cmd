@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/mediatek/built-in.o :=   rm -f drivers/gpu/drm/mediatek/built-in.o; ar rcSTPD drivers/gpu/drm/mediatek/built-in.o drivers/gpu/drm/mediatek/mediatek-drm.o ; scripts/mod/modpost drivers/gpu/drm/mediatek/built-in.o

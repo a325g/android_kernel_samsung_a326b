@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/devapc/built-in.o :=   rm -f drivers/misc/mediatek/devapc/built-in.o; ar rcSTPD drivers/misc/mediatek/devapc/built-in.o drivers/misc/mediatek/devapc/devapc-mtk-multi-ao.o drivers/misc/mediatek/devapc/devapc-mt6853.o ; scripts/mod/modpost drivers/misc/mediatek/devapc/built-in.o

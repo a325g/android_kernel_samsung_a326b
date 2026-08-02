@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/apusys/vpu/built-in.o :=   rm -f drivers/misc/mediatek/apusys/vpu/built-in.o; ar rcSTPD drivers/misc/mediatek/apusys/vpu/built-in.o drivers/misc/mediatek/apusys/vpu/vpu.o ; scripts/mod/modpost drivers/misc/mediatek/apusys/vpu/built-in.o

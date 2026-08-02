@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/audio_ipi/common/built-in.o :=   rm -f drivers/misc/mediatek/audio_ipi/common/built-in.o; ar rcSTPD drivers/misc/mediatek/audio_ipi/common/built-in.o drivers/misc/mediatek/audio_ipi/common/framework/built-in.o drivers/misc/mediatek/audio_ipi/common/tasks/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/audio_ipi/common/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/btif/common/built-in.o :=   rm -f drivers/misc/mediatek/btif/common/built-in.o; ar rcSTPD drivers/misc/mediatek/btif/common/built-in.o drivers/misc/mediatek/btif/common/btif.o ; scripts/mod/modpost drivers/misc/mediatek/btif/common/built-in.o

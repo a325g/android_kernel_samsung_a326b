@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/boot_reason/built-in.o :=   rm -f drivers/misc/mediatek/boot_reason/built-in.o; ar rcSTPD drivers/misc/mediatek/boot_reason/built-in.o drivers/misc/mediatek/boot_reason/BOOT_REASON.o ; scripts/mod/modpost drivers/misc/mediatek/boot_reason/built-in.o

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/built-in.o :=   rm -f sound/soc/codecs/built-in.o; ar rcSTPD sound/soc/codecs/built-in.o sound/soc/codecs/richtek_spm_cls.o sound/soc/codecs/snd-soc-mt6359.o sound/soc/codecs/tas256x/built-in.o sound/soc/codecs/snd-soc-mt6660.o ; scripts/mod/modpost sound/soc/codecs/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/typec/u3_switch/built-in.o :=   rm -f drivers/misc/mediatek/typec/u3_switch/built-in.o; ar rcSTPD drivers/misc/mediatek/typec/u3_switch/built-in.o drivers/misc/mediatek/typec/u3_switch/usb_switch.o ; scripts/mod/modpost drivers/misc/mediatek/typec/u3_switch/built-in.o

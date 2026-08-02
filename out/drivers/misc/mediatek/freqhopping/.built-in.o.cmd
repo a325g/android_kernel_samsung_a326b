@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/freqhopping/built-in.o :=   rm -f drivers/misc/mediatek/freqhopping/built-in.o; ar rcSTPD drivers/misc/mediatek/freqhopping/built-in.o drivers/misc/mediatek/freqhopping/fhctl_new/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/freqhopping/built-in.o

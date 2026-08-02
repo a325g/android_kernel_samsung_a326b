@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/dramc/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/dramc/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/dramc/mt6853/built-in.o drivers/misc/mediatek/dramc/mt6853/mtk_dramc_wa.o ; scripts/mod/modpost drivers/misc/mediatek/dramc/mt6853/built-in.o

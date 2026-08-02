@@ -1,0 +1,16 @@
+!<thin>
+//                                              98        `
+timer-of.o/
+timer-probe.o/
+mmio.o/
+mtk_apxgpt.o/
+mtk_systimer.o/
+arm_arch_timer.o/
+dummy_timer.o/
+/0              0           0     0     644     110984    `
+/12             0           0     0     644     100624    `
+/27             0           0     0     644     12408     `
+/35             0           0     0     644     129888    `
+/49             0           0     0     644     153400    `
+/65             0           0     0     644     269568    `
+/83             0           0     0     644     18672     `

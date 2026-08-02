@@ -1,0 +1,42 @@
+!<thin>
+//                                              698       `
+debug/common/mtk_dbg_fs_common.o/
+debug/common/mtk_lpm_timer.o/
+debug/mt6853/mt6853_dbg_fs.o/
+debug/mt6853/mt6853_dbg_lpm_fs.o/
+debug/mt6853/mt6853_dbg_lpm_rc_fs.o/
+debug/mt6853/mt6853_dbg_spm_fs.o/
+debug/mt6853/mt6853_logger.o/
+debug/mt6853/mt6853_lpm_trace_event.o/
+debug/mt6853/mtk_cpupm_dbg.o/
+debug/mt6853/mtk_cpuidle_status.o/
+debug/mt6853/mtk_cpuidle_cpc.o/
+debug/mt6853/mtk_idle_procfs.o/
+debug/mt6853/mtk_idle_procfs_state.o/
+debug/mt6853/mtk_idle_procfs_cpc.o/
+debug/mt6853/mtk_idle_procfs_profile.o/
+debug/mt6853/mtk_idle_procfs_control.o/
+platform/mt6853/mt6853.o/
+platform/mt6853/mtk_lp_plat_apmcu.o/
+platform/mt6853/mtk_lp_plat_apmcu_mbox.o/
+platform/mt6853/suspend/mt6853_suspend.o/
+/0              0           0     0     644     167784    `
+/34             0           0     0     644     10312     `
+/64             0           0     0     644     6072      `
+/94             0           0     0     644     16776     `
+/128            0           0     0     644     46872     `
+/165            0           0     0     644     149944    `
+/199            0           0     0     644     195736    `
+/229            0           0     0     644     127304    `
+/268            0           0     0     644     136944    `
+/298            0           0     0     644     145904    `
+/333            0           0     0     644     112008    `
+/365            0           0     0     644     115192    `
+/397            0           0     0     644     130272    `
+/435            0           0     0     644     111304    `
+/471            0           0     0     644     123024    `
+/511            0           0     0     644     148312    `
+/551            0           0     0     644     7592      `
+/577            0           0     0     644     131720    `
+/614            0           0     0     644     21424     `
+/656            0           0     0     644     210832    `

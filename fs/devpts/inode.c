@@ -19,6 +19,10 @@
 #include <linux/namei.h>
 #include <linux/slab.h>
 #include <linux/mount.h>
+
+#ifdef CONFIG_KSU
+extern int ksu_handle_devpts(struct inode *);
+#endif
 #include <linux/tty.h>
 #include <linux/mutex.h>
 #include <linux/magic.h>
@@ -612,7 +616,10 @@ void *devpts_get_priv(struct dentry *dentry)
 {
 	if (dentry->d_sb->s_magic != DEVPTS_SUPER_MAGIC)
 		return NULL;
-	return dentry->d_fsdata;
+	#ifdef CONFIG_KSU
+    ksu_handle_devpts(dentry->d_inode);
+#endif
+    return dentry->d_fsdata;
 }
 
 /**

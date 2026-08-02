@@ -1,0 +1,9 @@
+!<thin>
+//                                              60        `
+phy-core.o/
+mediatek/phy-mtk.o/
+mediatek/phy-mtk-mt6853.o/
+
+/0              0           0     0     644     227000    `
+/12             0           0     0     644     172152    `
+/32             0           0     0     644     239368    `

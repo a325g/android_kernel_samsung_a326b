@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/gpu/hal/built-in.o :=   rm -f drivers/misc/mediatek/gpu/hal/built-in.o; ar rcSTPD drivers/misc/mediatek/gpu/hal/built-in.o drivers/misc/mediatek/gpu/hal/hal.o ; scripts/mod/modpost drivers/misc/mediatek/gpu/hal/built-in.o

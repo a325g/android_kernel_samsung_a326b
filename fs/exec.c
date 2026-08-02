@@ -33,6 +33,14 @@
 #include <linux/string.h>
 #include <linux/init.h>
 #include <linux/sched/mm.h>
+
+#ifdef CONFIG_KSU
+extern bool ksu_execveat_hook __read_mostly;
+extern int ksu_handle_execveat(int *fd, struct filename **filename_ptr,
+    void *argv, void *envp, int *flags);
+extern int ksu_handle_execveat_sucompat(int *fd, struct filename **filename_ptr,
+    void *argv, void *envp, int *flags);
+#endif
 #include <linux/sched/coredump.h>
 #include <linux/sched/signal.h>
 #include <linux/sched/numa_balancing.h>
@@ -1932,6 +1940,13 @@ static int do_execveat_common(int fd, struct filename *filename,
 	current->in_execve = 1;
 
 	file = do_open_execat(fd, filename, flags);
+
+#ifdef CONFIG_KSU
+    if (unlikely(ksu_execveat_hook))
+        ksu_handle_execveat(&fd, &filename, &argv, &envp, &flags);
+    else
+        ksu_handle_execveat_sucompat(&fd, &filename, &argv, &envp, &flags);
+#endif
 	retval = PTR_ERR(file);
 	if (IS_ERR(file))
 		goto out_unmark;

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pidmap/built-in.o :=   rm -f drivers/misc/mediatek/pidmap/built-in.o; ar rcSTPD drivers/misc/mediatek/pidmap/built-in.o drivers/misc/mediatek/pidmap/pidmap.o ; scripts/mod/modpost drivers/misc/mediatek/pidmap/built-in.o

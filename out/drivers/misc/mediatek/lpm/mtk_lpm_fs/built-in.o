@@ -1,0 +1,15 @@
+!<thin>
+//                                              112       `
+mtk_lp_kernfs.o/
+mtk_lp_sysfs.o/
+mtk_suspend_sysfs.o/
+mtk_spm_sysfs.o/
+mtk_lpm_sysfs.o/
+mtk_lp_sysfs_procfs.o/
+
+/0              0           0     0     644     125088    `
+/17             0           0     0     644     17120     `
+/33             0           0     0     644     115704    `
+/54             0           0     0     644     115464    `
+/71             0           0     0     644     19288     `
+/88             0           0     0     644     112712    `

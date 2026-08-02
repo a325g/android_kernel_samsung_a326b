@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/fingerprint.o :=  rm -f drivers/fingerprint/fingerprint.o; ar rcSTPD drivers/fingerprint/fingerprint.o drivers/fingerprint/fingerprint_common.o drivers/fingerprint/fingerprint_common_mtk.o drivers/fingerprint/et5xx-spi.o drivers/fingerprint/et5xx-spi_data_transfer.o 

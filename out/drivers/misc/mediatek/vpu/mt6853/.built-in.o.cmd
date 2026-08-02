@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/vpu/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/vpu/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/vpu/mt6853/built-in.o drivers/misc/mediatek/vpu/mt6853/dummy.o ; scripts/mod/modpost drivers/misc/mediatek/vpu/mt6853/built-in.o

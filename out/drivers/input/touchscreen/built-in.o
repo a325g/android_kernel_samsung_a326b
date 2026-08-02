@@ -1,0 +1,34 @@
+!<thin>
+//                                              452       `
+of_touchscreen.o/
+ili9881x/ili9881x.o/
+ili9881x/ili9881x_spi.o/
+ili9881x/ili9881x_init.o/
+ili9881x/ili9881x_ic.o/
+ili9881x/ili9881x_touch.o/
+ili9881x/ili9881x_mp.o/
+ili9881x/ili9881x_hostdl.o/
+ili9881x/ili9881x_node.o/
+ili9881x/ili9881x_sec_fn.o/
+ili9881x/ili9881x_sec_fn_test.o/
+novatek/nt36525/nt36xxx.o/
+novatek/nt36525/nt36xxx_fw_update.o/
+novatek/nt36525/nt36xxx_ext_proc.o/
+novatek/nt36525/nt36xxx_mp_ctrlram.o/
+novatek/nt36525/nt36xxx_sec_fn.o/
+/0              0           0     0     644     149432    `
+/18             0           0     0     644     470312    `
+/39             0           0     0     644     418264    `
+/64             0           0     0     644     446256    `
+/90             0           0     0     644     499336    `
+/114            0           0     0     644     575584    `
+/141            0           0     0     644     771864    `
+/165            0           0     0     644     468264    `
+/193            0           0     0     644     783744    `
+/219            0           0     0     644     535176    `
+/247            0           0     0     644     341280    `
+/280            0           0     0     644     544272    `
+/307            0           0     0     644     269792    `
+/344            0           0     0     644     179920    `
+/380            0           0     0     644     364704    `
+/418            0           0     0     644     688160    `

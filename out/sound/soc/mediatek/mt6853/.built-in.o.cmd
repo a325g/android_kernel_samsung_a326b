@@ -1,0 +1,1 @@
+cmd_sound/soc/mediatek/mt6853/built-in.o :=   rm -f sound/soc/mediatek/mt6853/built-in.o; ar rcSTPD sound/soc/mediatek/mt6853/built-in.o sound/soc/mediatek/mt6853/snd-soc-mt6853-afe.o sound/soc/mediatek/mt6853/mt6853-mt6359.o ; scripts/mod/modpost sound/soc/mediatek/mt6853/built-in.o

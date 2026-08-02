@@ -1,0 +1,13 @@
+cmd_firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o := clang -Wp,-MD,firmware/tsp_ilitek/.ili9881x_a03core_tianma.hex.gen.o.d -nostdinc -isystem /usr/lib/llvm-12/lib/clang/12.0.1/include -I../arch/arm64/include -I./arch/arm64/include/generated  -I../include -I../drivers/misc/mediatek/include -I./include -I../arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I../include/uapi -I./include/generated/uapi -include ../include/linux/kconfig.h -D__KERNEL__ -Qunused-arguments -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT=3 -D__ASSEMBLY__ -no-integrated-as -Werror=unknown-warning-option -fno-PIE -DCONFIG_AS_LSE=1 -DKASAN_SHADOW_SCALE_SHIFT=3 -DCC_HAVE_ASM_GOTO -Wa,-gdwarf-2   -c -o firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.S
+
+source_firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o := firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.S
+
+deps_firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o := \
+  ../include/linux/compiler_types.h \
+    $(wildcard include/config/have/arch/compiler/h.h) \
+    $(wildcard include/config/enable/must/check.h) \
+    $(wildcard include/config/enable/warn/deprecated.h) \
+
+firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o: $(deps_firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o)
+
+$(deps_firmware/tsp_ilitek/ili9881x_a03core_tianma.hex.gen.o):

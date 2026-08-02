@@ -1,0 +1,55 @@
+!<thin>
+//                                              646       `
+perfmgr_main.o/
+base/utility.o/
+boost_ctrl/boostctrl_main.o/
+boost_ctrl/dram_ctrl/dram_ctrl.o/
+boost_ctrl/cpu_ctrl/cpu_ctrl.o/
+boost_ctrl/eas_ctrl/eas_ctrl.o/
+boost_ctrl/topo_ctrl/topo_ctrl.o/
+tchbst/tchbst_main.o/
+tchbst/kernel/ktch.o/
+syslimiter/syslimiter.o/
+observer/pob_main.o/
+observer/fpsgo_notify.o/
+observer/qos_notify.o/
+observer/nn_notify.o/
+observer/xpu_notify.o/
+observer/eara_thrm_notify.o/
+observer/platform/mt6853/qos_pfm.o/
+resym/rs_trace.o/
+resym/rs_base.o/
+resym/rs_main.o/
+resym/rs_usage.o/
+resym/rs_state.o/
+resym/rs_index.o/
+resym/platform/mt6853/rs_vpu_pfm.o/
+resym/platform/mt6853/rs_mdla_pfm.o/
+perf_ioctl/perf_ioctl.o/
+
+/0              0           0     0     644     164568    `
+/16             0           0     0     644     179664    `
+/32             0           0     0     644     5712      `
+/61             0           0     0     644     132792    `
+/95             0           0     0     644     262128    `
+/127            0           0     0     644     334232    `
+/159            0           0     0     644     118280    `
+/193            0           0     0     644     4864      `
+/215            0           0     0     644     215280    `
+/237            0           0     0     644     210712    `
+/262            0           0     0     644     197560    `
+/283            0           0     0     644     9376      `
+/308            0           0     0     644     234136    `
+/331            0           0     0     644     8072      `
+/353            0           0     0     644     11376     `
+/376            0           0     0     644     8096      `
+/405            0           0     0     644     48488     `
+/441            0           0     0     644     166768    `
+/459            0           0     0     644     100120    `
+/476            0           0     0     644     17360     `
+/493            0           0     0     644     231504    `
+/511            0           0     0     644     21984     `
+/529            0           0     0     644     223960    `
+/547            0           0     0     644     7264      `
+/583            0           0     0     644     4344      `
+/620            0           0     0     644     200952    `

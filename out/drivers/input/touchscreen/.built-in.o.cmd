@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.o :=   rm -f drivers/input/touchscreen/built-in.o; ar rcSTPD drivers/input/touchscreen/built-in.o drivers/input/touchscreen/of_touchscreen.o drivers/input/touchscreen/ili9881x/built-in.o drivers/input/touchscreen/novatek/nt36525/built-in.o ; scripts/mod/modpost drivers/input/touchscreen/built-in.o

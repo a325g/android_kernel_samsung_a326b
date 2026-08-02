@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/task_turbo/built-in.o :=   rm -f drivers/misc/mediatek/task_turbo/built-in.o; ar rcSTPD drivers/misc/mediatek/task_turbo/built-in.o drivers/misc/mediatek/task_turbo/task_turbo.o ; scripts/mod/modpost drivers/misc/mediatek/task_turbo/built-in.o

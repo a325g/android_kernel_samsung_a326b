@@ -1,0 +1,51 @@
+!<thin>
+//                                              726       `
+mtk-vcu/mtk_vcu.o/
+mtk-vcu/mtk_vcodec_mem.o/
+mtk-vcodec/mtk_vcodec_dec_drv.o/
+mtk-vcodec/vdec_drv_if.o/
+mtk-vcodec/mtk_vcodec_dec.o/
+mtk-vcodec/mt6853/mtk_vcodec_dec_pm.o/
+mtk-vcodec/vdec/vdec_common_if.o/
+mtk-vcodec/vdec/vdec_log_if.o/
+mtk-vcodec/vdec_vcu_if.o/
+mtk-vcodec/mtk_vcodec_enc.o/
+mtk-vcodec/mtk_vcodec_enc_drv.o/
+mtk-vcodec/mt6853/mtk_vcodec_enc_pm.o/
+mtk-vcodec/venc_drv_if.o/
+mtk-vcodec/venc/venc_common_if.o/
+mtk-vcodec/venc/venc_log_if.o/
+mtk-vcodec/venc_vcu_if.o/
+mtk-vcodec/mt6853/mtk_vcodec_intr.o/
+mtk-vcodec/mtk_vcodec_util.o/
+mtk-vcodec/mt6853/vcodec_dvfs.o/
+mtk-vcodec/mt6853/vcodec_bw.o/
+mtk-jpeg/mtk_jpeg_core.o/
+mtk-jpeg/mtk_jpeg_enc_hw.o/
+mtk-jpeg/mtk_jpeg_dec_hw.o/
+mtk-jpeg/mtk_jpeg_dec_parse.o/
+
+/0              0           0     0     644     613416    `
+/19             0           0     0     644     211192    `
+/45             0           0     0     644     308000    `
+/78             0           0     0     644     230208    `
+/104            0           0     0     644     394040    `
+/133            0           0     0     644     311496    `
+/172            0           0     0     644     254600    `
+/206            0           0     0     644     210512    `
+/237            0           0     0     644     270744    `
+/263            0           0     0     644     406320    `
+/292            0           0     0     644     303632    `
+/325            0           0     0     644     253328    `
+/364            0           0     0     644     238192    `
+/390            0           0     0     644     246856    `
+/424            0           0     0     644     213632    `
+/455            0           0     0     644     254824    `
+/481            0           0     0     644     240104    `
+/518            0           0     0     644     278680    `
+/548            0           0     0     644     33896     `
+/581            0           0     0     644     7704      `
+/612            0           0     0     644     384056    `
+/638            0           0     0     644     23944     `
+/666            0           0     0     644     30408     `
+/694            0           0     0     644     11216     `

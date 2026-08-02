@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/apusys/reviser/1.0/built-in.o :=   rm -f drivers/misc/mediatek/apusys/reviser/1.0/built-in.o; ar rcSTPD drivers/misc/mediatek/apusys/reviser/1.0/built-in.o drivers/misc/mediatek/apusys/reviser/1.0/reviser.o ; scripts/mod/modpost drivers/misc/mediatek/apusys/reviser/1.0/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/smcdsd_panel/built-in.o :=   rm -f drivers/gpu/drm/panel/smcdsd_panel/built-in.o; ar rcSTPD drivers/gpu/drm/panel/smcdsd_panel/built-in.o drivers/gpu/drm/panel/smcdsd_panel/panels/built-in.o ; scripts/mod/modpost drivers/gpu/drm/panel/smcdsd_panel/built-in.o

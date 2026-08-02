@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/base/power/cpufreq_v1/built-in.o :=   rm -f drivers/misc/mediatek/base/power/cpufreq_v1/built-in.o; ar rcSTPD drivers/misc/mediatek/base/power/cpufreq_v1/built-in.o drivers/misc/mediatek/base/power/cpufreq_v1/src/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/base/power/cpufreq_v1/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/apusys/mnoc/built-in.o :=   rm -f drivers/misc/mediatek/apusys/mnoc/built-in.o; ar rcSTPD drivers/misc/mediatek/apusys/mnoc/built-in.o drivers/misc/mediatek/apusys/mnoc/apusys_mnoc.o ; scripts/mod/modpost drivers/misc/mediatek/apusys/mnoc/built-in.o

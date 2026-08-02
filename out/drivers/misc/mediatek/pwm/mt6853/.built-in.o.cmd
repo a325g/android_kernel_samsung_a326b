@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/pwm/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/pwm/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/pwm/mt6853/built-in.o drivers/misc/mediatek/pwm/mt6853/mtk_pwm_hal.o ; scripts/mod/modpost drivers/misc/mediatek/pwm/mt6853/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/chip/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/chip/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/chip/mt6853/built-in.o drivers/misc/mediatek/chip/mt6853/CHIP.o ; scripts/mod/modpost drivers/misc/mediatek/chip/mt6853/built-in.o

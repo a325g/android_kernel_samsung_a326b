@@ -1,0 +1,27 @@
+!<thin>
+//                                              202       `
+mtk_ts_battery.o/
+mtk_ts_bts.o/
+mtk_ts_btsmdpa.o/
+mtk_ts_btsnrpa.o/
+mtk_ts_cpu_noBank.o/
+mtk_ts_pa.o/
+mtk_ts_pa_thput.o/
+mtk_ts_pmic.o/
+mtk_ts_charger.o/
+mtk_ts_wmt.o/
+mtk_tsAll.o/
+mtk_ts_imgsensor.o/
+
+/0              0           0     0     644     229632    `
+/18             0           0     0     644     258728    `
+/32             0           0     0     644     260120    `
+/50             0           0     0     644     259056    `
+/68             0           0     0     644     300176    `
+/89             0           0     0     644     318088    `
+/102            0           0     0     644     240552    `
+/121            0           0     0     644     202112    `
+/136            0           0     0     644     183224    `
+/154            0           0     0     644     433368    `
+/168            0           0     0     644     418312    `
+/181            0           0     0     644     610304    `

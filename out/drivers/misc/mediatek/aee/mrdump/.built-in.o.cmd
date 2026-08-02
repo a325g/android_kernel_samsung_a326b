@@ -1,0 +1,1 @@
+cmd_drivers/misc/mediatek/aee/mrdump/built-in.o :=   rm -f drivers/misc/mediatek/aee/mrdump/built-in.o; ar rcSTPD drivers/misc/mediatek/aee/mrdump/built-in.o drivers/misc/mediatek/aee/mrdump/mrdump.o ; scripts/mod/modpost drivers/misc/mediatek/aee/mrdump/built-in.o

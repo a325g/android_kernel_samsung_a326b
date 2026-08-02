@@ -1,0 +1,22 @@
+!<thin>
+//                                              320       `
+imgsensor_sysfs.o/
+imgsensor_vendor.o/
+crc32.o/
+imgsensor_vendor_rom_config.o/
+aat_v32x/imgsensor_eeprom_rear_gm2.o/
+aat_v32x/imgsensor_otp_front_3l6.o/
+aat_v32x/imgsensor_otp_rear2_sr846d.o/
+aat_v32x/imgsensor_otp_rear3_gc02m1b.o/
+aat_v32x/imgsensor_otp_rear4_gc5035.o/
+aat_v32x/imgsensor_vendor_rom_config_aat_v32x.o/
+/0              0           0     0     644     533808    `
+/19             0           0     0     644     140264    `
+/39             0           0     0     644     5264      `
+/48             0           0     0     644     13424     `
+/79             0           0     0     644     14928     `
+/117            0           0     0     644     14480     `
+/153            0           0     0     644     14504     `
+/192            0           0     0     644     14320     `
+/232            0           0     0     644     14512     `
+/271            0           0     0     644     14472     `
