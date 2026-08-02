@@ -31,10 +31,17 @@ export KSU_URL=""
 
 # Build Config
 export ARCH=arm64
+export CROSS_COMPILE="$SRC/gcc/bin/aarch64-linux-androidkernel-"
+export CC="$SRC/clang/bin/clang"
+export CLANG_TRIPLE=aarch64-linux-gnu-
+export PATH="$SRC/clang/bin:$SRC/gcc/bin:$PATH"
 export KCFLAGS=-w
 export CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 
 # Telegram (optional - set via environment or here)
+export BOT_TOKEN=""
+export CHAT_ID=""
+# or set in repo secret action# Telegram (optional - set via environment or here)
 export BOT_TOKEN=""
 export CHAT_ID=""
 # or set in repo secret action
