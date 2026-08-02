@@ -1,1 +1,0 @@
-cmd_sound/soc/mediatek/audio_dsp/mt6853/built-in.o :=   rm -f sound/soc/mediatek/audio_dsp/mt6853/built-in.o; ar rcSTPD sound/soc/mediatek/audio_dsp/mt6853/built-in.o sound/soc/mediatek/audio_dsp/mt6853/dsp-platform-mem-control.o ; scripts/mod/modpost sound/soc/mediatek/audio_dsp/mt6853/built-in.o

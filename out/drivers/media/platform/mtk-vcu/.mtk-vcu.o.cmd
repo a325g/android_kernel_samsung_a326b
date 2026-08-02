@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/mtk-vcu/mtk-vcu.o :=  rm -f drivers/media/platform/mtk-vcu/mtk-vcu.o; ar rcSTPD drivers/media/platform/mtk-vcu/mtk-vcu.o drivers/media/platform/mtk-vcu/mtk_vcu.o drivers/media/platform/mtk-vcu/mtk_vcodec_mem.o 

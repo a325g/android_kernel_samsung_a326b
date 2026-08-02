@@ -1,1 +1,0 @@
-cmd_net/packet/built-in.o :=   rm -f net/packet/built-in.o; ar rcSTPD net/packet/built-in.o net/packet/af_packet.o ; scripts/mod/modpost net/packet/built-in.o

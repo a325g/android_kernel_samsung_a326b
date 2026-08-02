@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/memory-ssmr/built-in.o :=   rm -f drivers/misc/mediatek/memory-ssmr/built-in.o; ar rcSTPD drivers/misc/mediatek/memory-ssmr/built-in.o drivers/misc/mediatek/memory-ssmr/memory_ssmr.o ; scripts/mod/modpost drivers/misc/mediatek/memory-ssmr/built-in.o

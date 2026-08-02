@@ -1,1 +1,0 @@
-cmd_drivers/char/built-in.o :=   rm -f drivers/char/built-in.o; ar rcSTPD drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/misc.o drivers/char/virtio_console.o drivers/char/hw_random/built-in.o drivers/char/agp/built-in.o drivers/char/rpmb/built-in.o ; scripts/mod/modpost drivers/char/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/pmic/mt6360/ldo/built-in.o :=   rm -f drivers/misc/mediatek/pmic/mt6360/ldo/built-in.o; ar rcSTPD drivers/misc/mediatek/pmic/mt6360/ldo/built-in.o drivers/misc/mediatek/pmic/mt6360/ldo/mt6360_ldo_i2c.o drivers/misc/mediatek/pmic/mt6360/ldo/mt6360_ldo_regmap.o ; scripts/mod/modpost drivers/misc/mediatek/pmic/mt6360/ldo/built-in.o

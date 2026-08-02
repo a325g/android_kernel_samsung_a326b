@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/performance/tchbst/built-in.o :=   rm -f drivers/misc/mediatek/performance/tchbst/built-in.o; ar rcSTPD drivers/misc/mediatek/performance/tchbst/built-in.o drivers/misc/mediatek/performance/tchbst/tchbst_main.o drivers/misc/mediatek/performance/tchbst/kernel/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/performance/tchbst/built-in.o

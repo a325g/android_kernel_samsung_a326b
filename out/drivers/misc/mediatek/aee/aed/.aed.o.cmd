@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/aee/aed/aed.o :=  rm -f drivers/misc/mediatek/aee/aed/aed.o; ar rcSTPD drivers/misc/mediatek/aee/aed/aed.o drivers/misc/mediatek/aee/aed/aed-main.o drivers/misc/mediatek/aee/aed/monitor_hang.o 

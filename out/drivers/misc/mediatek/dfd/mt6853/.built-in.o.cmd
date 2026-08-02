@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/dfd/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/dfd/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/dfd/mt6853/built-in.o drivers/misc/mediatek/dfd/mt6853/plat_dfd.o ; scripts/mod/modpost drivers/misc/mediatek/dfd/mt6853/built-in.o

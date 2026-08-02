@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sspm/built-in.o :=   rm -f drivers/misc/mediatek/sspm/built-in.o; ar rcSTPD drivers/misc/mediatek/sspm/built-in.o drivers/misc/mediatek/sspm/mt6853/built-in.o ; scripts/mod/modpost drivers/misc/mediatek/sspm/built-in.o

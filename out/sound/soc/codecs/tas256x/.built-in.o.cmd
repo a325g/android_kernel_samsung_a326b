@@ -1,1 +1,0 @@
-cmd_sound/soc/codecs/tas256x/built-in.o :=   rm -f sound/soc/codecs/tas256x/built-in.o; ar rcSTPD sound/soc/codecs/tas256x/built-in.o sound/soc/codecs/tas256x/snd-soc-tas256x.o ; scripts/mod/modpost sound/soc/codecs/tas256x/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/performance/boost_ctrl/eas_ctrl/built-in.o :=   rm -f drivers/misc/mediatek/performance/boost_ctrl/eas_ctrl/built-in.o; ar rcSTPD drivers/misc/mediatek/performance/boost_ctrl/eas_ctrl/built-in.o drivers/misc/mediatek/performance/boost_ctrl/eas_ctrl/eas_ctrl.o ; scripts/mod/modpost drivers/misc/mediatek/performance/boost_ctrl/eas_ctrl/built-in.o

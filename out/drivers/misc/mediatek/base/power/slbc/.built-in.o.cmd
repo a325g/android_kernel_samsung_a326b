@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/base/power/slbc/built-in.o :=   rm -f drivers/misc/mediatek/base/power/slbc/built-in.o; ar rcSTPD drivers/misc/mediatek/base/power/slbc/built-in.o drivers/misc/mediatek/base/power/slbc/mtk_slbc.o ; scripts/mod/modpost drivers/misc/mediatek/base/power/slbc/built-in.o

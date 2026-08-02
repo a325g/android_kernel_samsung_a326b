@@ -1,1 +1,0 @@
-cmd_drivers/phy/mediatek/built-in.o :=   rm -f drivers/phy/mediatek/built-in.o; ar rcSTPD drivers/phy/mediatek/built-in.o drivers/phy/mediatek/phy-mtk.o drivers/phy/mediatek/phy-mtk-mt6853.o ; scripts/mod/modpost drivers/phy/mediatek/built-in.o

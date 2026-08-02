@@ -1,1 +1,0 @@
-cmd_drivers/muic/common/built-in.o :=   rm -f drivers/muic/common/built-in.o; ar rcSTPD drivers/muic/common/built-in.o drivers/muic/common/common_muic.o ; scripts/mod/modpost drivers/muic/common/built-in.o

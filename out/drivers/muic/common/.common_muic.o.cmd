@@ -1,1 +1,0 @@
-cmd_drivers/muic/common/common_muic.o :=  rm -f drivers/muic/common/common_muic.o; ar rcSTPD drivers/muic/common/common_muic.o drivers/muic/common/muic-core.o drivers/muic/common/muic_notifier.o drivers/muic/common/muic_param.o 
