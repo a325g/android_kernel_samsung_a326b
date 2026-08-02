@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/connectivity/wlan_drv_gen4m/built-in.o :=   rm -f drivers/misc/mediatek/connectivity/wlan_drv_gen4m/built-in.o; ar rcSTPD drivers/misc/mediatek/connectivity/wlan_drv_gen4m/built-in.o drivers/misc/mediatek/connectivity/wlan_drv_gen4m/wlan_6853_axi.o ; scripts/mod/modpost drivers/misc/mediatek/connectivity/wlan_drv_gen4m/built-in.o

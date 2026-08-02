@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/perf/built-in.o :=   rm -f drivers/misc/mediatek/perf/built-in.o; ar rcSTPD drivers/misc/mediatek/perf/built-in.o drivers/misc/mediatek/perf/perf_tracker.o drivers/misc/mediatek/perf/perf_common.o ; scripts/mod/modpost drivers/misc/mediatek/perf/built-in.o

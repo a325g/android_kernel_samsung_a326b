@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/connectivity/bt/built-in.o :=   rm -f drivers/misc/mediatek/connectivity/bt/built-in.o; ar rcSTPD drivers/misc/mediatek/connectivity/bt/built-in.o drivers/misc/mediatek/connectivity/bt/bt_drv.o ; scripts/mod/modpost drivers/misc/mediatek/connectivity/bt/built-in.o

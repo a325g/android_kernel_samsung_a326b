@@ -1,1 +1,0 @@
-cmd_drivers/fingerprint/built-in.o :=   rm -f drivers/fingerprint/built-in.o; ar rcSTPD drivers/fingerprint/built-in.o drivers/fingerprint/fingerprint.o drivers/fingerprint/fingerprint_sysfs.o ; scripts/mod/modpost drivers/fingerprint/built-in.o

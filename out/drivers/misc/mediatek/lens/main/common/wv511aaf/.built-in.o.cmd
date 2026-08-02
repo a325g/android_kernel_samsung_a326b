@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/lens/main/common/wv511aaf/built-in.o :=   rm -f drivers/misc/mediatek/lens/main/common/wv511aaf/built-in.o; ar rcSTPD drivers/misc/mediatek/lens/main/common/wv511aaf/built-in.o drivers/misc/mediatek/lens/main/common/wv511aaf/WV511AAF.o ; scripts/mod/modpost drivers/misc/mediatek/lens/main/common/wv511aaf/built-in.o

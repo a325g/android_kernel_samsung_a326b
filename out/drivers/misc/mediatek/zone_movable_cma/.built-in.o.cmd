@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/zone_movable_cma/built-in.o :=   rm -f drivers/misc/mediatek/zone_movable_cma/built-in.o; ar rcSTPD drivers/misc/mediatek/zone_movable_cma/built-in.o drivers/misc/mediatek/zone_movable_cma/single_cma.o drivers/misc/mediatek/zone_movable_cma/zmc_notify.o ; scripts/mod/modpost drivers/misc/mediatek/zone_movable_cma/built-in.o

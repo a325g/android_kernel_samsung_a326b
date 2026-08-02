@@ -1,1 +1,0 @@
-cmd_drivers/media/platform/mtk-vcu/built-in.o :=   rm -f drivers/media/platform/mtk-vcu/built-in.o; ar rcSTPD drivers/media/platform/mtk-vcu/built-in.o drivers/media/platform/mtk-vcu/mtk-vcu.o drivers/media/platform/mtk-vcu/mtk_vcodec_mem.o ; scripts/mod/modpost drivers/media/platform/mtk-vcu/built-in.o

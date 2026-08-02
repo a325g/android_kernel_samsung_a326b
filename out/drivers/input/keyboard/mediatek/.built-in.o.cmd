@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/mediatek/built-in.o :=   rm -f drivers/input/keyboard/mediatek/built-in.o; ar rcSTPD drivers/input/keyboard/mediatek/built-in.o drivers/input/keyboard/mediatek/kpd.o drivers/input/keyboard/mediatek/mt6853/built-in.o ; scripts/mod/modpost drivers/input/keyboard/mediatek/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/tzdev/built-in.o :=   rm -f drivers/misc/tzdev/built-in.o; ar rcSTPD drivers/misc/tzdev/built-in.o drivers/misc/tzdev/4.2.0/built-in.o ; scripts/mod/modpost drivers/misc/tzdev/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/ram_console/built-in.o :=   rm -f drivers/misc/mediatek/ram_console/built-in.o; ar rcSTPD drivers/misc/mediatek/ram_console/built-in.o drivers/misc/mediatek/ram_console/mtk_ram_console.o ; scripts/mod/modpost drivers/misc/mediatek/ram_console/built-in.o

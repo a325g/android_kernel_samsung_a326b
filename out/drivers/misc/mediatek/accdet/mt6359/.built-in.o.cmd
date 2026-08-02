@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/accdet/mt6359/built-in.o :=   rm -f drivers/misc/mediatek/accdet/mt6359/built-in.o; ar rcSTPD drivers/misc/mediatek/accdet/mt6359/built-in.o drivers/misc/mediatek/accdet/mt6359/accdet.o ; scripts/mod/modpost drivers/misc/mediatek/accdet/mt6359/built-in.o

@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/cameraisp/src/mt6853/built-in.o :=   rm -f drivers/misc/mediatek/cameraisp/src/mt6853/built-in.o; ar rcSTPD drivers/misc/mediatek/cameraisp/src/mt6853/built-in.o drivers/misc/mediatek/cameraisp/src/mt6853/camera_isp.o drivers/misc/mediatek/cameraisp/src/mt6853/cam_qos.o ; scripts/mod/modpost drivers/misc/mediatek/cameraisp/src/mt6853/built-in.o

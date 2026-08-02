@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/sensor/dummy/built-in.o :=   rm -f drivers/misc/mediatek/sensor/dummy/built-in.o; ar rcSTPD drivers/misc/mediatek/sensor/dummy/built-in.o drivers/misc/mediatek/sensor/dummy/dummy.o ; scripts/mod/modpost drivers/misc/mediatek/sensor/dummy/built-in.o

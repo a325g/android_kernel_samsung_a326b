@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/aee/common/aee.o :=  rm -f drivers/misc/mediatek/aee/common/aee.o; ar rcSTPD drivers/misc/mediatek/aee/common/aee.o drivers/misc/mediatek/aee/common/dummy.o drivers/misc/mediatek/aee/common/aee-common.o drivers/misc/mediatek/aee/common/reboot-reason.o 

@@ -1,1 +1,0 @@
-cmd_drivers/battery/charger/mtk_charger/built-in.o :=   rm -f drivers/battery/charger/mtk_charger/built-in.o; ar rcSTPD drivers/battery/charger/mtk_charger/built-in.o drivers/battery/charger/mtk_charger/mtk_charger.o ; scripts/mod/modpost drivers/battery/charger/mtk_charger/built-in.o

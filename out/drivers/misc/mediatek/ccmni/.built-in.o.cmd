@@ -1,1 +1,0 @@
-cmd_drivers/misc/mediatek/ccmni/built-in.o :=   rm -f drivers/misc/mediatek/ccmni/built-in.o; ar rcSTPD drivers/misc/mediatek/ccmni/built-in.o drivers/misc/mediatek/ccmni/eccmni.o ; scripts/mod/modpost drivers/misc/mediatek/ccmni/built-in.o
