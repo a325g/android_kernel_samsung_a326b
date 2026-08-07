@@ -449,19 +449,6 @@ static int _charger_manager_enable_charging(struct charger_consumer *consumer,
 		else
 			return -ENOTSUPP;
 
-		// Force charging path to stay active permanently
-		_mtk_charger_do_charging(info, true); 
-		pdata->disable_charging_count = 0;
-
-		chr_err("%s: FORCE ENABLED BYPASS - dev:%s idx:%d en:%d\n", __func__,
-			dev_name(consumer->dev), idx, en);
-
-		return 0;
-	}
-	return -EBUSY;
-}
-
-
 		if (en == false) {
 			_mtk_charger_do_charging(info, en);
 			pdata->disable_charging_count++;
