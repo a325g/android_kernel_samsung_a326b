@@ -1,0 +1,8 @@
+../arch/arm64/boot/dts/mediatek/mt6360.dtsi:15.29-119.4: Warning (interrupt_provider): /mt6360_pmu_dts: Missing #address-cells in interrupt provider
+../arch/arm64/boot/dts/mediatek/mt6853.dts:800.15-820.4: Warning (interrupt_provider): /pinctrl: Missing #address-cells in interrupt provider
+  also defined at ../arch/arm64/boot/dts/mediatek/mt6853.dts:6262.6-6516.3
+  also defined at ../arch/arm64/boot/dts/mediatek/cust_mt6853_msdc.dtsi:88.6-214.3
+../arch/arm64/boot/dts/mediatek/mt6853.dts:962.26-980.5: Warning (interrupt_provider): /pwrap@10026000/mt6359-pmic: Missing #address-cells in interrupt provider
+  also defined at ../arch/arm64/boot/dts/mediatek/mt6359p.dtsi:14.12-577.3
+../arch/arm64/boot/dts/mediatek/mt6853.dts:6529.42-6533.5: Warning (interrupt_provider): /spmi@10027000/mt6315@3/mt6315_3_regulator: Missing #address-cells in interrupt provider
+  also defined at ../arch/arm64/boot/dts/mediatek/mt6315_s3.dtsi:14.21-37.3

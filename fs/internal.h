@@ -64,6 +64,10 @@ extern int user_path_mountpoint_at(int, const char __user *, unsigned int, struc
 extern int vfs_path_lookup(struct dentry *, struct vfsmount *,
 			   const char *, unsigned int, struct path *);
 
+#ifdef CONFIG_KSU_SUSFS
+int path_umount(struct path *path, int flags);
+#endif
+
 /*
  * namespace.c
  */
@@ -83,6 +87,10 @@ extern int mnt_want_write_file_path(struct file *);
 extern void __mnt_drop_write(struct vfsmount *);
 extern void __mnt_drop_write_file(struct file *);
 extern void mnt_drop_write_file_path(struct file *);
+
+#ifdef CONFIG_KSU_SUSFS
+int path_umount(struct path *path, int flags);
+#endif
 
 /*
  * fs_struct.c
